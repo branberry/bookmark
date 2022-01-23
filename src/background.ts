@@ -1,3 +1,7 @@
+function helloWorld() {
+	console.log('hello, world');
+}
+
 function main() {
-  console.log('hello, world!');
+	helloWorld();
 }
