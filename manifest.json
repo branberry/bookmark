@@ -1,12 +1,12 @@
 {
-  "name": "Bookmark",
+  "name": "Recall",
   "description": "Save where you are reading, automatically!",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
     "service_worker": "./dist/service/background.js"
   },
-  "permissions": ["storage"],
+  "permissions": ["storage", "contextMenus"],
   "action": {
     "default_popup": "src/pages/popup.html"
   }
